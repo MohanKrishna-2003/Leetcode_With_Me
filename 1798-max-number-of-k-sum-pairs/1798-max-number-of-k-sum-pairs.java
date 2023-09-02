@@ -4,7 +4,7 @@ class Solution {
         Arrays.sort(nums);
         while(i<j)
         {
-            int total = nums[i]+nums[j];
+            int total = nums[i] + nums[j];
             if(total==k)
             {
                 pairs++;
